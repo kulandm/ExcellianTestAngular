@@ -1,0 +1,10 @@
+.main-container {
+	height: calc(100% - 44px); /* 44 is the height of the header */
+}
+.left-container {
+	padding-right: 0;
+}
+.right-container {
+	padding-left: 0;
+	background-color: #CCCCCC;
+}

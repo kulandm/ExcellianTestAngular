@@ -1,0 +1,12 @@
+.menu {	
+	padding: 10px 0 10px 14px;
+}
+.menu, .menu a {
+	color: #888888;
+}
+.menu span:first-child {
+	padding-right: 10px;
+}
+.active {
+	background-color: #EEEEEE;
+}

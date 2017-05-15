@@ -1,0 +1,9 @@
+<div class="sub-container">
+	<h6>Users</h6>
+</div>
+<div>
+	<div *ngFor = "let menu of menus" class="menu" [ngClass]="{'active': menu.name=='All Users'}">
+		<span><i class="fa fa-{{menu.icon}}" aria-hidden="true"></i></span>
+		<span><a href="">{{menu.name}}</a></span>
+	</div>
+</div>
